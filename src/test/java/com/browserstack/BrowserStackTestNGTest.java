@@ -61,6 +61,7 @@ public class BrowserStackTestNGTest {
             l = new Local();
             Map<String, String> options = new HashMap<String, String>();
             options.put("key", accessKey);
+            options.put("forcelocal","true");
             l.start(options);
         }
 
